@@ -109,6 +109,8 @@ header video{
 	max-width: 100%;
 	height: auto;
   }
+
+  
 /* **************************************************** */
 
 .social-bar {
@@ -366,6 +368,7 @@ header video{
 
 .tech-skills .tech .action {
 	position: relative;
+	background: rgba(246, 36, 89, 1);
 	opacity: 0;
 	transition: 0.5s;
 }
