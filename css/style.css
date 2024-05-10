@@ -55,6 +55,7 @@ header video{
 	z-index: 1000;
 	background-color: transparent;
 	padding: 10px;
+	/* display: none; */
   }
   
   .navigation ul {
@@ -74,6 +75,33 @@ header video{
   .navigation ul li a img:hover{
 	cursor:pointer;
 	transform: scale(1.2) translateY(-10px);
+  }
+ /* 
+  /* CSS for Menu Toggle */
+  .toggle {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	z-index: 1001;
+	width: 60px;
+	height: 60px;
+	/*background: #f60f20 url("Images/menu.png"); */
+	background-size: 30px; 
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+	text-align: center;
+	line-height: 40px;
+  }
+  
+  /* Show Navigation when Toggle is clicked */
+  .toggle.active + .navigation {
+	display: block;
+  }
+  
+  /* Hide Toggle when Navigation is displayed */
+  .toggle.active {
+	display: none;
   }
   
   /* CSS for Menu Images */
