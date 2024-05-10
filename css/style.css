@@ -85,7 +85,7 @@ header video{
 	z-index: 1001;
 	width: 60px;
 	height: 60px;
-	background: #f60f20 url("../images/menu.png");
+	background: #f60f20 url("Images/menu.png");
 	background-size: 30px; 
 	background-repeat: no-repeat;
 	background-position: center;
