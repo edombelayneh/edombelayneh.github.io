@@ -1,14 +1,18 @@
-/* <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-     <link rel="icon" href= "Images/Logowebsite.png" type="image/x-icon"/>
+    <link rel="icon" href="Images/Logowebsite.png" type="image/x-icon" />
     <link rel="stylesheet" href="css/style.css" />
     <title>E's Website</title>
   </head>
   <body>
+    <div id="success-message" class="hidden">
+      <p>Thanks for reaching out! I'll be in touch soon!</p>
+    </div>
+
     <header>
       <video src="Videos/coding.mp4" muted loop autoplay></video>
 
@@ -48,30 +52,53 @@
 
       <div class="contact">
         <div class="contact-form">
-          <form>
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <!-- Replace with your Access Key -->
+            <input
+              type="hidden"
+              name="access_key"
+              value="1f93fa01-c1b1-4a4a-a4d7-6a43c418cf89"
+            />
+
+            <!-- Custom URL -->
+            <input
+              type="hidden"
+              name="redirect"
+              value="https://edombelayneh.github.io/?redirect=true"
+            />
+
             <div class="row">
               <div class="input50">
-                <input type="text" placeholder="First Name" />
+                <input
+                  type="text"
+                  placeholder="First Name"
+                  name="First Name"
+                  required
+                />
               </div>
 
               <div class="input50">
-                <input type="text" placeholder="Last Name" />
+                <input type="text" placeholder="Last Name" name="Last Name" />
               </div>
             </div>
 
             <div class="row">
               <div class="input50">
-                <input type="text" placeholder="Email" />
+                <input type="email" placeholder="Email" />
               </div>
 
               <div class="input50">
-                <input type="text" placeholder="Subject" />
+                <input type="text" placeholder="Subject" name="Subject" />
               </div>
             </div>
 
             <div class="row">
               <div class="input100">
-                <textarea placeholder="Message"></textarea>
+                <textarea
+                  placeholder="Message"
+                  name="message"
+                  required
+                ></textarea>
               </div>
             </div>
 
@@ -80,12 +107,15 @@
                 <input type="submit" value="Send" />
               </div>
             </div>
+
+            <!-- hCaptcha Spam Protection -->
+            <div class="h-captcha" data-captcha="true"></div>
           </form>
         </div>
 
         <div class="contact-info">
           <div class="info-box">
-            <img src="Images/address.png" class="contact-icon" alt="" />
+            <img src="images/address.png" class="contact-icon" alt="" />
             <div class="details">
               <h4>Address</h4>
               <p>Mount Pleasant, MI, USA</p>
@@ -93,7 +123,7 @@
           </div>
 
           <div class="info-box">
-            <img src="Images/email.png" class="contact-icon" alt="" />
+            <img src="images/email.png" class="contact-icon" alt="" />
             <div class="details">
               <h4>Email</h4>
               <a href="mailto:belayneh1ey@gmail.com">belayneh1ey@gmail.com</a>
@@ -101,7 +131,7 @@
           </div>
 
           <div class="info-box">
-            <img src="Images/call.png" class="contact-icon" alt="" />
+            <img src="images/call.png" class="contact-icon" alt="" />
             <div class="details">
               <h4>Call</h4>
               <a href="tel:+17028863506">+1 (702)-886-3506</a>
@@ -111,7 +141,20 @@
       </div>
     </section>
 
-    <script src="js/script.js"></script>
+    <script src="https://web3forms.com/client/script.js" async defer></script>
+    <script>
+      window.onload = function () {
+        // check url query string to see if the form was submitted
+        const urlParams = new URLSearchParams(window.location.search);
+        // of the form was submitted then show a succes message
+        if (urlParams.get("redirect") === "true") {
+          const successMessage = document.getElementByID("success-message");
+          successMessage.classList.remove("hidden");
+          setTimeout(function () {
+            successMessage.classList.add("hidden");
+          }, 4000);
+        }
+      };
+    </script>
   </body>
 </html>
-*/
