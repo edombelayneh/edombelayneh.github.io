@@ -266,6 +266,24 @@ header video{
 	margin-bottom: 40%;
 }
 
+.social-bar-about {
+	position: fixed;
+	top: 70%;
+	left: 0;
+	width: 60px;
+	height: 30px;
+	z-index: 100;
+} 
+
+.social-bar-about a{
+	display: inline-block;
+	transform: scale(0.5);
+}
+
+.social-bar-about a:hover{
+	transform: scale(0.5) translateY(-15px);
+}
+
 .skills {
 	position: absolute;
 	top: 0;
