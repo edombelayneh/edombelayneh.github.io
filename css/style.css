@@ -266,7 +266,7 @@ header video{
 	margin-bottom: 40%;
 }
 
-.social-bar-about {
+.social-bar {
 	position: fixed;
 	top: 70%;
 	left: 0;
@@ -275,12 +275,12 @@ header video{
 	z-index: 100;
 } 
 
-.social-bar-about a{
+.social-bar a{
 	display: inline-block;
 	transform: scale(0.5);
 }
 
-.social-bar-about a:hover{
+.social-bar a:hover{
 	transform: scale(0.5) translateY(-15px);
 }
 
@@ -480,6 +480,27 @@ header video{
   
 
 /* *******************CONTACT PAGE************************** */
+#success-message{
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	top: 20px;
+	width: 100%;
+	transition: opacity 0.5s ease-out;
+
+}
+
+#success-message > p {
+	background-color: rgba(255, 0, 0, 0.8);
+	color: white;
+	padding: 1rem;
+	border-radius: 0.25rem;
+}
+
+.hidden {
+	opacity: 0;
+}
+
 .title {
 	position: absolute;
 	top: 150px;
