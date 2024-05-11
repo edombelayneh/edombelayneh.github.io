@@ -76,7 +76,40 @@ header video{
 	cursor:pointer;
 	transform: scale(1.2) translateY(-10px);
   }
- /* 
+/* **************************************************** */
+
+.social-bar {
+	position: fixed;
+	top: 70%;
+	left: 0;
+	width: 60px;
+	height: 30px;
+	z-index: 100;
+} 
+
+.social-bar a{
+	display: inline-block;
+	transform: scale(0.5);
+}
+
+.social-bar a:hover{
+	transform: scale(0.5) translateY(-15px);
+}
+
+.resume {
+	position: fixed;
+	top: 91%;
+	left: 96%;
+	transform: scale(0.8);
+	z-index: 101;
+}
+
+.resume a img:hover {
+	transform: scale(1.2) translateY(-15px);
+}
+
+/* ************************************************** */
+
   /* CSS for Menu Toggle */
   .toggle {
 	position: fixed;
@@ -110,64 +143,7 @@ header video{
 	height: auto;
   }
 
-  
 /* **************************************************** */
-
-.social-bar {
-	position: fixed;
-	top: 70%;
-	left: 0;
-	width: 60px;
-	height: 30px;
-	z-index: 100;
-} 
-
-.social-bar a{
-	display: inline-block;
-	transform: scale(0.5);
-}
-
-.social-bar a:hover{
-	transform: scale(0.5) translateY(-15px);
-}
-
-.resume {
-	position: fixed;
-	top: 91%;
-	left: 96%;
-	transform: scale(0.8);
-	z-index: 101;
-}
-
-.resume a img:hover {
-	transform: scale(1.2) translateY(-15px);
-}
-
-/*Toggle*/
-
-/* .toggle {
-	position: fixed;
-	top: 0;
-	right: 0;
-	width: 60px;
-	height: 60px;
-	background: #f60f20 url("../images/menu.png");
-	background-size: 30px; 
-	background-repeat: no-repeat;
-	background-position: center;
-	z-index: 20;
-	cursor: pointer;
-
-}
-
-.toggle.active {
-	background: #f60f20 url("../images/close.png");
-	background-size: 25px; 
-	background-repeat: no-repeat;
-	background-position: center;
-} */
-
-/* ************************************************** */
 
 .aAb {
 	position: absolute;
