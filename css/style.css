@@ -559,7 +559,7 @@ header video{
 
 /* *******************CONTACT PAGE************************** */
 
-.title {
+.title-contact {
 	position: absolute;
 	top: 150px;
 	left: 0px;
@@ -568,11 +568,11 @@ header video{
 	color: #f9f9f9;
 	z-index: 1001;
 }
-.title h1{
+.title-contact h1{
 	position: relative;
 	left: 300px;
 }
-.title img{
+.title-contact img{
 	transform: scale(1.4);
 }
 .contact{
@@ -717,7 +717,7 @@ header video{
 	.intro h1 {
 		font-size: 40px;
 	}
-	/* *******************ABOUT PAGE************************** */
+/* *******************ABOUT PAGE************************** */
 
 	.aAb-about .ctrl {
 		left: 8%;
@@ -740,15 +740,15 @@ header video{
 	.tech-skills .tech {
 		top: 80px;
 	}
-	/* *******************PROJECTS PAGE************************** */
+/* *******************PROJECTS PAGE************************** */
 
 	.slide-container{
 		max-width: 900px;
 	}
 
-	/* *******************CONTACT PAGE************************** */
+/* *******************CONTACT PAGE************************** */
 
-	.title {
+	.title-contact {
 		top: 50px;
 		z-index: 100;
 	}
@@ -758,12 +758,137 @@ header video{
 
 }
 
-@media screen and (max-width: 768px){
-	.slide-content{
-		margin: 0 10px;
+@media screen and (max-width: 900px){
+/* *******************HOME PAGE************************** */
+
+	.resume{
+		top:90%;
+		left: 87%;
 	}
-	.swiper-navBtn{
+
+	.social-bar{
+		top:63%;
+	}
+
+	.ctrl {
+		top: 60%;
+		left: 70%;
+		height: 90px;
+		width: 90px;
+	}
+	
+	.aAb-home .ani img {
+		position: absolute;
+		top: 65%;
+		left: 90%;
+		width: 180px;
+		height: 180px;
+	}
+	
+	.aAb-home a {
+		display: none;
+		top: 40px;
+		right: 26%;
+	}
+	
+	.intro {
+		position: absolute;
+		top: 10%;
+		left: 13%;
+		width: 70%;
+	}
+	
+	.intro h1 {
+		font-size: 35px;
+	}
+	.intro p{
+		font-size: 23px;
+	}
+/* *******************ABOUT PAGE************************** */
+
+	.social-bar-about {
+		top:63%;
+	}
+
+	.aAb-about .ctrl {
 		display: none;
 	}
+
+	.aAb-about .ani img {
+		display: none;
+	}
+
+	.skills {
+		position: absolute;
+		top: 0px;
+		left: -52px;
+		width: 98%;
+	}
+
+	.tech-skills{
+		position: absolute;
+		width: 80%;
+		left: 45px;
+		top: 2400px;
+	}
+
+	.tech-skills h1 {
+		display: none;
+		top: 50px;
+	}
+
+	.tech-skills .tech {
+		top: 80px;
+	}
+/* *******************PROJECTS PAGE************************** */
+
+	.slide-container{
+		max-width: 400px;
+	}
+
+	.slide-content{
+		margin: 0 40px;
+	}
+
+/* *******************CONTACT PAGE************************** */
+
+	.title-contact {
+		position: absolute;
+		font-size: 15px;
+		left: 0;
+	}
+
+	.title-contact h1{
+		top: 60px;
+		left: 90px;
+	}
+
+	.title-contact img{
+		position: absolute;
+		left: 50px;
+		top: 40px;
+		width: 20px;
+		height: 20px;
+	}
+
+
+	.contact-form {
+		position: absolute;
+		top: 0px;
+		width: 80%;
+		padding:10px;
+	}
+
+	.social-bar-contact {
+		position: absolute;
+		top: 450px;
+		left:25%;
+	}
+
+	.contact-info {
+		position: absolute;
+		top: 560px;
+		left: 20%;
+	}	
 
 }
