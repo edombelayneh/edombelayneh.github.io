@@ -531,6 +531,7 @@ header video{
 }
 
 .swiper-navBtn:hover{
+	transform: scale(1.2) translateY(-15px);
 	color: red;
 }
 
