@@ -1,5 +1,7 @@
 # Portfolio Website
 
+**STILL UNDER CONSTRUCTION**
+
 ## Objective
 This website showcases my experiences, along with my college career and leadership involvements. Here you will be able to find:
   - My **Resume**
