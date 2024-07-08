@@ -8,7 +8,7 @@ This website showcases my experiences, along with my college career and leadersh
   - About me
   - Contact information
 
-**To be able to open my website on your browser use the following link <a href="https://edombelayneh.github.io/index.html">https://edombelayneh.github.io/index.html</a> or just <a href="https://edombelayneh.github.io/index.html">click-here</a>**
+**To be able to open my website on your browser <a href="https://edombelayneh.github.io/index.html">click-here</a>**
 
 ### Skills Learned
 
