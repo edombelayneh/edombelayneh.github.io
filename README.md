@@ -1,5 +1,5 @@
 # Portfolio Website
-<img src="https://img.shields.io/badge/-Solo Project-29cf42?&style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/-Solo Project-f2336f?&style=for-the-badge&logoColor=white" />
 **‼ STILL UNDER CONSTRUCTION ‼**
 
 ## Objective
