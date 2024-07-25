@@ -30,5 +30,5 @@ This website showcases my experiences, along with my college career and leadersh
 </div>
 
 ## To Execute
-- <a href="https://edombelayneh.github.io/index.html">Click-here</a>
+- <a href="https://edombelayneh.github.io">Click-here</a>
 
