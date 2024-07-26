@@ -10,7 +10,7 @@ This website showcases my experiences, along with my college career and leadersh
   - About me
   - Contact information
 
-**To be able to open my website on your browser <a href="https://https://edombelayneh.github.io">click-here</a>.**
+**To be able to open my website on your browser <a href="http://www.edombelayneh.com">click-here</a>.**
 
 ### Skills Learned
 - Proficiency in creating and maintaining a portfolio website using github.
@@ -30,5 +30,5 @@ This website showcases my experiences, along with my college career and leadersh
 </div>
 
 ## To Execute
-- <a href="https://edombelayneh.github.io">Click-here</a>
+- <a href="http://www.edombelayneh.com">Click-here</a>
 
